@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-work',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkComponent implements OnInit {
 
-  constructor() { }
+  urlCV = '/assets/img/gab.jpg';
+  urlWW = '/assets/img/w-logo.jpg';
+
+  constructor() {
+  }
 
   ngOnInit() {
   }

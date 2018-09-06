@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-languages',
@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LanguagesComponent implements OnInit {
 
-  constructor() { }
+  urlPT = '/assets/img/portugal_640.png';
+  urlUK = '/assets/img/united_kingdom_640.png';
+  urlGE = '/assets/img/germany_640.png';
+  urlJP = '/assets/img/japan_640.png';
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
