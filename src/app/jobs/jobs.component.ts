@@ -7,9 +7,9 @@ import {Component, OnInit} from '@angular/core';
 })
 export class JobsComponent implements OnInit {
 
-  urlCarrenet = '/assets/img/carrenet-logo_200-200.png';
-  urlLNE = '/assets/img/lne-marianne-logo_200-200.jpg';
-  urlCoty = '/assets/img/coty-logo_200-200.jpg';
+  urlCarrenet = './assets/img/carrenet-logo_200-200.png';
+  urlLNE = './assets/img/lne-marianne-logo_200-200.jpg';
+  urlCoty = './assets/img/coty-logo_200-200.jpg';
 
   constructor() {
   }

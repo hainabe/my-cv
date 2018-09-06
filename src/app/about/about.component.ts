@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  urlItMe = '/assets/img/it-me.jpg';
+  urlItMe = './assets/img/it-me.jpg';
 
   constructor() {
   }
