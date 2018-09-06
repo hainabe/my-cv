@@ -11,6 +11,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { FooterComponent } from './footer/footer.component';
+import { LanguagesComponent } from './languages/languages.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     SkillsComponent,
     EducationComponent,
     HobbiesComponent,
-    FooterComponent
+    FooterComponent,
+    LanguagesComponent
   ],
   imports: [
     BrowserModule
