@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class IntroductionComponent implements OnInit {
 
-  urlSignature = './assets/img/signature.jpg';
+  urlSignature = 'assets/img/signature.jpg';
 
   constructor() {
   }

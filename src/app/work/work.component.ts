@@ -7,8 +7,8 @@ import {Component, OnInit} from '@angular/core';
 })
 export class WorkComponent implements OnInit {
 
-  urlCV = './assets/img/gab.jpg';
-  urlWW = './assets/img/w-logo.jpg';
+  urlCV = 'assets/img/gab.jpg';
+  urlWW = 'assets/img/w-logo.jpg';
 
   constructor() {
   }
